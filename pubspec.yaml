@@ -1,0 +1,33 @@
+name: btg_capital
+description: "BTG Capital - Gestión de Fondos de Inversión FPV/FIC"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.3.5
+  go_router: ^14.8.1
+  intl: ^0.20.2
+  google_fonts: ^6.2.1
+  dartz: ^0.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  mockito: ^5.4.4
+  build_runner: ^2.4.11
+  riverpod_generator: ^2.4.3
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/mock/

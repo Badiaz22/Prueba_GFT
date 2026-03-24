@@ -1,0 +1,145 @@
+{
+  "@@locale": "en",
+
+  "navDashboard": "Home",
+  "navFunds": "Funds",
+  "navTransactions": "History",
+
+  "breadcrumbHome": "Home",
+  "breadcrumbFunds": "Investment Funds",
+  "breadcrumbTransactions": "Transaction History",
+  "breadcrumbSubscribe": "Subscription",
+
+  "dashboardTitle": "Account Summary",
+  "dashboardSubtitle": "Welcome back to your BTG Capital Dashboard.",
+
+  "fundsTitle": "Investment Funds",
+  "fundsSubtitle": "Explore and manage your portfolio with our selection of FPV and FIC funds.",
+  "fundsTabLabel": "All funds",
+  "fundCategoryFpv": "FPV",
+  "fundCategoryFic": "FIC",
+  "fundTypeFpvLabel": "Voluntary Pension Fund",
+  "fundTypeFicLabel": "Collective Investment Fund",
+  "fundSubscribeButton": "Subscribe",
+  "fundSubscribedLabel": "SUBSCRIBED",
+  "fundAvailableLabel": "Available",
+  "fundAlreadySubscribed": "Already subscribed",
+  "fundWithdrawButton": "WITHDRAW",
+  "fundMinPrefix": "Min: ",
+
+  "subscribeTitle": "Subscribe to fund",
+  "subscribeFundSubtitle": "Invest in {fundName} with BTG Capital.",
+  "@subscribeFundSubtitle": {
+    "placeholders": {
+      "fundName": { "type": "String" }
+    }
+  },
+  "subscribeAmountLabel": "Amount to invest",
+  "subscribeAmountInputLabel": "Enter the amount (COP)",
+  "subscribeConfirmButton": "Confirm subscription",
+  "subscribeCancelButton": "Cancel",
+  "subscribeValidationEnterAmount": "Enter an amount",
+  "subscribeValidationInvalidAmount": "Enter a valid amount",
+  "subscribeNotificationMethodLabel": "Notification method",
+  "subscribeDisclosureTitle": "Disclosure agreement",
+  "subscribeDisclosureBody": "By continuing, you confirm that you have read and understood the fund subscription terms. The investment value may fluctuate.",
+
+  "transactionsTitle": "Transaction History",
+  "transactionsSubtitle": "View the complete record of your subscriptions and cancellations.",
+  "transactionsTabLabel": "All transactions",
+  "transactionSubscriptionLabel": "SUBSCRIPTION",
+  "transactionCancellationLabel": "CANCELLATION",
+  "transactionNotifPrefix": "Notif: ",
+  "transactionNotifEmail": "Email",
+  "transactionNotifSms": "SMS",
+  "transactionNotifNone": "—",
+
+  "footerBrandName": "BTG Capital",
+  "footerCopyright": "© 2026 BTG Capital. All rights reserved.",
+  "footerInvestorLabel": "Investor",
+
+  "sidebarDashboardLabel": "Dashboard",
+  "sidebarFundsLabel": "Invest",
+  "sidebarTransactionsLabel": "History",
+  "sidebarLogoutLabel": "Log out",
+
+  "languageSwitcherLabel": "Language",
+  "languageEnglish": "English",
+  "languageSpanish": "Spanish",
+
+  "tableHeaderId": "ID",
+  "tableHeaderFund": "FUND",
+  "tableHeaderType": "TYPE",
+  "tableHeaderAmount": "AMOUNT",
+  "tableHeaderNotification": "NOTIFICATION",
+  "tableHeaderDate": "DATE",
+  "tableShowingPrefix": "Showing ",
+  "tableTransactionsSuffix": " transactions",
+
+  "transactionsEmptyTitle": "No transactions",
+  "transactionsEmptySubtitle": "When you make subscriptions or cancellations, they will appear here.",
+
+  "notifEmailDescription": "Email notifications",
+  "notifSmsDescription": "Mobile alerts",
+
+  "subscribeDetailsAccountTitle": "Account Summary",
+  "subscribeDetailsBalanceLabel": "Available balance",
+  "subscribeDetailsMinLabel": "Minimum amount",
+  "subscribeDetailsSupportTitle": "Need help with your investment?",
+  "subscribeDetailsSupportSubtitle": "Consult with a BTG Capital advisor",
+
+  "subscribeValidationBelowMinimum": "The minimum amount is {amount}",
+  "@subscribeValidationBelowMinimum": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "subscribeValidationExceedsBalance": "Exceeds your available balance of {amount}",
+  "@subscribeValidationExceedsBalance": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+
+  "operationResultFundLabel": "Fund",
+  "operationResultAmountSubscribedLabel": "Amount Subscribed",
+  "operationResultAmountReturnedLabel": "Amount Returned",
+  "operationResultDateLabel": "Date",
+  "operationResultErrorLabel": "Error",
+  "operationResultReferenceLabel": "Reference",
+  "operationResultNotificationLabel": "Notification",
+  "operationResultSubscribeTitle": "Subscription Successful!",
+  "operationResultCancelTitle": "Cancellation Successful!",
+  "operationResultErrorTitle": "Operation Error",
+  "operationResultSubscribeDescription": "Your investment has been processed successfully and the fund will be reflected in your portfolio shortly.",
+  "operationResultCancelDescription": "Your subscription has been cancelled. The invested amount has been returned to your available balance.",
+  "operationResultErrorDescription": "An error occurred while processing your request. Please try again.",
+  "operationResultCloseButton": "Close",
+
+  "supportFooterTitle": "Need help choosing a fund?",
+  "supportFooterSubtitle": "Our financial advisors can help you build a portfolio according to your risk profile.",
+  "supportFooterButton": "Contact advisor",
+
+  "cancelDialogTitle": "Are you sure you want to cancel\nyour participation?",
+  "cancelDialogDescriptionPrefix": "You are about to cancel your investment in ",
+  "cancelDialogDescriptionSuffix": ". This action cannot be undone.",
+  "cancelDialogBalanceLabel": "BALANCE TO RETURN",
+  "cancelDialogFeeLabel": "Withdrawal fee",
+  "cancelDialogConfirmButton": "Confirm Cancellation",
+  "cancelDialogBackButton": "Go back",
+
+  "dashboardTotalBalanceLabel": "TOTAL BALANCE",
+  "dashboardInvestButton": "Invest",
+  "dashboardEmptyFundsTitle": "You don't have subscribed funds yet",
+  "dashboardEmptyFundsSubtitle": "Start investing in FPV or FIC funds",
+  "dashboardMyFundsTitle": "My Funds",
+
+  "tableHeaderFundName": "FUND NAME",
+  "tableHeaderCategory": "CATEGORY",
+  "tableHeaderMinAmount": "MIN. AMOUNT",
+  "tableHeaderStatus": "STATUS",
+  "tableHeaderAction": "ACTION",
+  "tableFundsSuffix": " available funds",
+
+  "helpCardTitle": "Need help?",
+  "helpCardSubtitle": "Talk with an expert financial advisor to optimize your portfolio.",
+  "helpCardButton": "Contact",
+
+  "fundsErrorTitle": "Error loading funds"
+}

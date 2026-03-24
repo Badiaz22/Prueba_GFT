@@ -1,0 +1,145 @@
+{
+  "@@locale": "es",
+
+  "navDashboard": "Inicio",
+  "navFunds": "Fondos",
+  "navTransactions": "Historial",
+
+  "breadcrumbHome": "Inicio",
+  "breadcrumbFunds": "Fondos de Inversión",
+  "breadcrumbTransactions": "Historial de Transacciones",
+  "breadcrumbSubscribe": "Suscripción",
+
+  "dashboardTitle": "Resumen de Cuenta",
+  "dashboardSubtitle": "Bienvenido de nuevo a su Dashboard de BTG Capital.",
+
+  "fundsTitle": "Fondos de Inversión",
+  "fundsSubtitle": "Explore y gestione su portafolio con nuestra selección de fondos FPV y FIC.",
+  "fundsTabLabel": "Todos los fondos",
+  "fundCategoryFpv": "FPV",
+  "fundCategoryFic": "FIC",
+  "fundTypeFpvLabel": "Fondo Pensiones Voluntarias",
+  "fundTypeFicLabel": "Fondo Inversión Colectiva",
+  "fundSubscribeButton": "Suscribirse",
+  "fundSubscribedLabel": "SUSCRITO",
+  "fundAvailableLabel": "Disponible",
+  "fundAlreadySubscribed": "Ya suscrito",
+  "fundWithdrawButton": "RETIRAR",
+  "fundMinPrefix": "Mín: ",
+
+  "subscribeTitle": "Suscribirse al fondo",
+  "subscribeFundSubtitle": "Invierte en {fundName} de BTG Capital.",
+  "@subscribeFundSubtitle": {
+    "placeholders": {
+      "fundName": { "type": "String" }
+    }
+  },
+  "subscribeAmountLabel": "Monto a invertir",
+  "subscribeAmountInputLabel": "Ingresa el monto (COP)",
+  "subscribeConfirmButton": "Confirmar subscripcion",
+  "subscribeCancelButton": "Cancelar",
+  "subscribeValidationEnterAmount": "Ingrese un monto",
+  "subscribeValidationInvalidAmount": "Ingrese un monto valido",
+  "subscribeNotificationMethodLabel": "Metodo de notificacion",
+  "subscribeDisclosureTitle": "Acuerdo de divulgacion",
+  "subscribeDisclosureBody": "Al continuar, confirmas que has leido y comprendido los terminos de subscripcion al fondo. El valor de la inversion puede fluctuar.",
+
+  "transactionsTitle": "Historial de Transacciones",
+  "transactionsSubtitle": "Consulte el registro completo de sus suscripciones y cancelaciones.",
+  "transactionsTabLabel": "Todas las transacciones",
+  "transactionSubscriptionLabel": "SUSCRIPCIÓN",
+  "transactionCancellationLabel": "CANCELACIÓN",
+  "transactionNotifPrefix": "Notif: ",
+  "transactionNotifEmail": "Email",
+  "transactionNotifSms": "SMS",
+  "transactionNotifNone": "—",
+
+  "footerBrandName": "BTG Capital",
+  "footerCopyright": "© 2026 BTG Capital. Todos los derechos reservados.",
+  "footerInvestorLabel": "Inversionista",
+
+  "sidebarDashboardLabel": "Dashboard",
+  "sidebarFundsLabel": "Invertir",
+  "sidebarTransactionsLabel": "Historial",
+  "sidebarLogoutLabel": "Cerrar sesión",
+
+  "languageSwitcherLabel": "Idioma",
+  "languageEnglish": "Inglés",
+  "languageSpanish": "Español",
+
+  "tableHeaderId": "ID",
+  "tableHeaderFund": "FONDO",
+  "tableHeaderType": "TIPO",
+  "tableHeaderAmount": "MONTO",
+  "tableHeaderNotification": "NOTIFICACIÓN",
+  "tableHeaderDate": "FECHA",
+  "tableShowingPrefix": "Mostrando ",
+  "tableTransactionsSuffix": " transacciones",
+
+  "transactionsEmptyTitle": "Sin transacciones",
+  "transactionsEmptySubtitle": "Cuando realice suscripciones o cancelaciones, aparecerán aquí.",
+
+  "notifEmailDescription": "Notificaciones al correo",
+  "notifSmsDescription": "Alertas al celular",
+
+  "subscribeDetailsAccountTitle": "Resumen de cuenta",
+  "subscribeDetailsBalanceLabel": "Saldo disponible",
+  "subscribeDetailsMinLabel": "Monto mínimo",
+  "subscribeDetailsSupportTitle": "¿Necesitas ayuda con tu inversión?",
+  "subscribeDetailsSupportSubtitle": "Consulta con un asesor BTG Capital",
+
+  "subscribeValidationBelowMinimum": "El monto mínimo es {amount}",
+  "@subscribeValidationBelowMinimum": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+  "subscribeValidationExceedsBalance": "Supera el saldo disponible de {amount}",
+  "@subscribeValidationExceedsBalance": {
+    "placeholders": { "amount": { "type": "String" } }
+  },
+
+  "operationResultFundLabel": "Fondo",
+  "operationResultAmountSubscribedLabel": "Monto Suscrito",
+  "operationResultAmountReturnedLabel": "Monto Devuelto",
+  "operationResultDateLabel": "Fecha",
+  "operationResultErrorLabel": "Error",
+  "operationResultReferenceLabel": "Referencia",
+  "operationResultNotificationLabel": "Notificación",
+  "operationResultSubscribeTitle": "¡Suscripción Exitosa!",
+  "operationResultCancelTitle": "¡Cancelación Exitosa!",
+  "operationResultErrorTitle": "Error en la Operación",
+  "operationResultSubscribeDescription": "Tu inversión ha sido procesada correctamente y el fondo se verá reflejado en tu portafolio en breve.",
+  "operationResultCancelDescription": "Tu suscripción ha sido cancelada. El monto invertido ha sido devuelto a tu saldo disponible.",
+  "operationResultErrorDescription": "Ocurrió un error al procesar tu solicitud. Por favor intenta nuevamente.",
+  "operationResultCloseButton": "Cerrar",
+
+  "supportFooterTitle": "¿Necesita ayuda eligiendo un fondo?",
+  "supportFooterSubtitle": "Nuestros asesores financieros pueden ayudarle a construir un portafolio acorde a su perfil de riesgo.",
+  "supportFooterButton": "Contactar asesor",
+
+  "cancelDialogTitle": "¿Estás seguro de cancelar\ntu participación?",
+  "cancelDialogDescriptionPrefix": "Estás a punto de cancelar tu inversión en el ",
+  "cancelDialogDescriptionSuffix": ". Esta acción no se puede deshacer.",
+  "cancelDialogBalanceLabel": "BALANCE A DEVOLVER",
+  "cancelDialogFeeLabel": "Comisión por retiro",
+  "cancelDialogConfirmButton": "Confirmar Cancelación",
+  "cancelDialogBackButton": "Volver",
+
+  "dashboardTotalBalanceLabel": "SALDO TOTAL",
+  "dashboardInvestButton": "Invertir",
+  "dashboardEmptyFundsTitle": "Aún no tienes fondos suscritos",
+  "dashboardEmptyFundsSubtitle": "Empieza a invertir en fondos FPV o FIC",
+  "dashboardMyFundsTitle": "Mis Fondos",
+
+  "tableHeaderFundName": "NOMBRE DEL FONDO",
+  "tableHeaderCategory": "CATEGORÍA",
+  "tableHeaderMinAmount": "MONTO MÍNIMO",
+  "tableHeaderStatus": "ESTADO",
+  "tableHeaderAction": "ACCIÓN",
+  "tableFundsSuffix": " fondos disponibles",
+
+  "helpCardTitle": "¿Necesitas ayuda?",
+  "helpCardSubtitle": "Habla con un asesor financiero experto para optimizar tu cartera.",
+  "helpCardButton": "Contactar",
+
+  "fundsErrorTitle": "Error al cargar los fondos"
+}
