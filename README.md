@@ -153,7 +153,7 @@ Los casos de uso retornan `Either<AppException, T>` de la librería `dartz`. Nun
 
 ```bash
 # 1. Clonar el repositorio
-git clone <repo-url>
+git clone [https://github.com/Badiaz22/Prueba_GFT.git]
 cd btg_capital
 
 # 2. Instalar dependencias
@@ -172,7 +172,7 @@ flutter devices
 flutter run -d chrome
 ```
 
-La app se abrirá automáticamente en una ventana de Chrome en `http://localhost:<puerto>`.
+La app se abrirá automáticamente en una ventana de Chrome en `http://localhost:<62569>`.
 
 > **Nota:** Si sirves el build manualmente con `flutter build web`, usa un servidor HTTP local. Abrir `index.html` directamente desde el sistema de archivos no funciona por restricciones de CORS del navegador.
 
