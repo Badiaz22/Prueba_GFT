@@ -46,7 +46,7 @@ lib/
 ├── app/
 │   ├── app.dart            → Raíz de la app (MaterialApp)
 │   ├── router.dart         → Rutas con GoRouter
-│   └── shell_scaffold.dart → Navegación adaptativa (sidebar / bottom nav)
+│   └── widgets/            → widgets de navegación y layout (sidebar / bottom nav)
 ├── core/
 │   ├── constants/          → AppConstants (saldo inicial, símbolo de moneda)
 │   ├── errors/             → Excepciones de dominio tipadas (AppException y subclases)
